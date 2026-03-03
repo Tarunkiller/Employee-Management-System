@@ -31,7 +31,7 @@ Controller → Service → Repository → Database
 
 ---
 
-## 📂 Project Structure
+
 ## 📂 Project Structure
 
 src/main/java/com/example/employeemanagement
@@ -96,7 +96,7 @@ OR (using wrapper)
 
 Base URL:
 
-http://localhost:8080
+http://localhost:8080/api/employees
 🔥 API Endpoints
 ➤ Create Employee
 POST /api/employees
