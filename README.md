@@ -32,27 +32,33 @@ Controller → Service → Repository → Database
 ---
 
 ## 📂 Project Structure
-com.example.employeemanagement
+## 📂 Project Structure
+
+src/main/java/com/example/employeemanagement
+│
+├── EmployeeManagementApplication.java
 │
 ├── controller
-│ └── EmployeeController.java
+│   └── EmployeeController.java
 │
 ├── service
-│ ├── EmployeeService.java
-│ └── EmployeeServiceImpl.java
+│   ├── EmployeeService.java
+│   └── EmployeeServiceImpl.java
 │
 ├── repository
-│ └── EmployeeRepository.java
+│   └── EmployeeRepository.java
 │
 ├── entity
-│ └── Employee.java
+│   └── Employee.java
 │
-├── exception
-│ ├── ResourceNotFoundException.java
-│ └── GlobalExceptionHandler.java
-│
-└── EmployeeManagementApplication.java
+└── exception
+    ├── ResourceNotFoundException.java
+    └── GlobalExceptionHandler.java
 
+src/main/resources
+│
+├── application.properties
+└── employees.json
 
 ---
 
